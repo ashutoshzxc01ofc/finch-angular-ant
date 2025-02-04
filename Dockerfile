@@ -1,16 +1,11 @@
-FROM node:18-alpine AS builder
+FROM node:20.15.1 AS build
+
 WORKDIR /app
 
-COPY package*.json ./
-RUN npm ci 
-
 COPY . .
-RUN npm run build --production
 
-FROM nginx:alpine
+RUN npm install -g @angular/cli
 
-COPY --from=builder /app/dist/finch-app/browser /usr/share/nginx/html
+RUN npm install
 
-EXPOSE 80
-
-CMD ["nginx", "-g", "daemon off;"]
+CMD ["ng","serve","--host","0.0.0.0"]
