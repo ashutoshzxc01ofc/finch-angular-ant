@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 
-import { designTokens } from "./src/designTokens";
+import { designTokens } from "./src/designToken";
 
 module.exports = {
   content: ["./src/**/*.{html,js,ts,jsx,tsx}"],
