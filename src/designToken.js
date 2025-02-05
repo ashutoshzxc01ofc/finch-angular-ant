@@ -1,7 +1,7 @@
 // designTokens.js
-    export const designTokens = {
-      colors: {
-            "brands-primary-p1-main-dark-mode": "#71DDBD",
+export const designTokens = {
+  colors: {
+    "brands-primary-p1-main-dark-mode": "#71DDBD",
     "brands-primary-p1-main-light-mode": "#205463",
     "brands-primary-p1-main-dark-mode-2": "#CCCCF4",
     "brands-primary-dark-dark-mode": "#71DDBD",
@@ -384,9 +384,9 @@
     "primary-800-colors": "#3AAB94",
     "primary-900-colors": "#2D807B",
     "primary-color-base-colors": "#205463",
-      },
-      fontSize: {
-            "xxs-ds": "12px",
+  },
+  fontSize: {
+    "xxs-ds": "12px",
     "sm-ds": "20px",
     "md-ds": "24px",
     "lg-ds": "32px",
@@ -449,9 +449,9 @@
     "type-set-website-paragraph-1-400": "18",
     "type-set-website-paragraph-1-700": "18",
     "type-set-website-paragraph-2-400": "16",
-      },
-      spacing: {
-            "null-cozy": "0px",
+  },
+  spacing: {
+    "null-cozy": "0px",
     "null-compact": "0px",
     "xs-cozy": "8px",
     "xs-compact": "6px",
@@ -477,9 +477,9 @@
     "2xs-compact": "4px",
     "6xl-cozy": "64px",
     "6xl-compact": "32px",
-      },
-      fontWeight: {
-            "extra-light-ds": "Extra Light",
+  },
+  fontWeight: {
+    "extra-light-ds": "Extra Light",
     "light-ds": "Light",
     "regular-ds": "Regular",
     "medium-ds": "Medium",
@@ -490,12 +490,12 @@
     "extra-black-ds": "Extra Black",
     "zs-typset-table": "Regular",
     "zs-heading": "N/A",
-    "display": "  Black",
+    display: "  Black",
     "subtitle-regular": "Regular",
     "subtitle-bold": "Bold",
-    "title": "Bold",
-    "body": "Regular",
-    "subheading": "Semibold",
+    title: "Bold",
+    body: "Regular",
+    subheading: "Semibold",
     "headline-h1-400": "Regular",
     "headline-h1-700": "Regular",
     "headline-h2-400": "Regular",
@@ -542,16 +542,16 @@
     "website-paragraph-1-400": "Regular",
     "website-paragraph-1-700": "Bold",
     "website-paragraph-2-400": "Bold",
-      },
-      fontFamily: {
-            "zs-typset-table": ["Mulish"],
+  },
+  fontFamily: {
+    "zs-typset-table": ["Mulish"],
     "zs-heading": ["Mulish"],
-    "display": ["Mulish"],
+    display: ["Mulish"],
     "subtitle-regular": ["Mulish"],
     "subtitle-bold": ["Mulish"],
-    "title": ["Mulish"],
-    "body": ["Mulish"],
-    "subheading": ["Mulish"],
+    title: ["Mulish"],
+    body: ["Mulish"],
+    subheading: ["Mulish"],
     "headline-h1-400": ["Mulish"],
     "headline-h1-700": ["Mulish"],
     "headline-h2-400": ["Mulish"],
@@ -598,9 +598,9 @@
     "website-paragraph-1-400": ["Mulish"],
     "website-paragraph-1-700": ["Mulish"],
     "website-paragraph-2-400": ["Mulish"],
-      },
-      borderRadius: {
-            "null-default": "0px",
+  },
+  borderRadius: {
+    "null-default": "0px",
     "xsmall-default": "104px",
     "small-default": "8px",
     "medium-default": "16px",
@@ -609,5 +609,5 @@
     "xxlarge-default": "64px",
     "circle-default": "104px",
     "xxsmall-default": "2px",
-      },
-    };
+  },
+};
